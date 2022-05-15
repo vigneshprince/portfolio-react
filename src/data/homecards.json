@@ -133,7 +133,7 @@
 						"python-telegram-bot",
 						"BS4"
 					],
-					"initialColor": "#56CCF2",
+					"initialColor": "#07d511",
 					"finalColor": "#2F80ED",
 					"language": "Python"
 				},
@@ -199,7 +199,7 @@
 						"MPV lua scipts"
 					],
 					"initialColor": "#f05053",
-					"finalColor": "#e1eec3",
+					"finalColor": "#810459",
 					"language": "Python"
 				}
 			],

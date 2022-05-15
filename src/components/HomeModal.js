@@ -8,7 +8,7 @@ import CertificateModal from './CertificateModal'
 import WorkExp from './WorkExp'
 
 function setModal(value, valObj) {
-	if (value === 'Projects') {
+	if (value === 'Personal Projects') {
 		return <ProjectList ProjectListVal={valObj} />
 	} else if (value === 'Coding') {
 		return <CodeList CodeListVal={valObj} />
