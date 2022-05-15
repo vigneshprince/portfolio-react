@@ -1,5 +1,8 @@
 {
 	"data": {
-		"about": "I discovered my passion for computer science when I was a sophomore in High School; it was then, when I started learning more for my passion. I am pursuing my bachelor's degree at Avantika University, major in Computer science and engineering. A year later I was introduced to Embedded systems, where I discovered the love for electrics and electronics and also for embedded systems. Then I got a scholarship opportunity to do a research work on Smart grid and started the never-ending journey of becoming a developer along with sharpening my eye for innovations."
+		"about": "⚡ A Tech Geek interested in automating tasks using python, trying out new technologies with a thirst for solving everyday problems using programming"  ,
+		"about1":"⚡ I have experience in Data Engineering and Azure Delta lake on creating an end to end data architecture starting from data analysis -> data transformation (Azure Synapse / Databricks) -> data visualization (Power BI). I am also an aspiring full stack developer and worked with Fast API for backend and React JS/ Native for front end web/mobile "
 	}
 }
+
+

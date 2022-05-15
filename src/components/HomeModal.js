@@ -4,7 +4,7 @@ import ProjectList from '../pages/ProjectList'
 import CodeList from './CodeList'
 import Hobby from './Hobby'
 import Education from './Education'
-import SocialModal from './SocialModal'
+import CertificateModal from './CertificateModal'
 import WorkExp from './WorkExp'
 
 function setModal(value, valObj) {
@@ -16,9 +16,9 @@ function setModal(value, valObj) {
 		return <Hobby HobbyListVal={valObj} />
 	} else if (value === 'Education') {
 		return <Education EducationObj={valObj} />
-	} else if (value === 'Contact') {
-		return <SocialModal SocialModalObj={valObj} />
-	} else if (value === 'Work Experience') {
+	} else if (value === 'Certificates') {
+		return <CertificateModal certs={valObj} />
+	} else if (value === 'Work Experience + Projects') {
 		return <WorkExp WorkExpObj={valObj} />
 	}
 }

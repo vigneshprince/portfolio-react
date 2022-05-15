@@ -1,68 +1,206 @@
 {
 	"data": [
 		{
-			"title": "Projects",
+			"title": "Work Experience + Projects",
+			"value": [
+				{
+					"Company": "Philips GBS",
+					"Position": "Data Specialist",
+					"duration": "Aug 2020 - Present",
+					"Projects": [
+						{
+							"id": 1,
+							"title": "GBS Scoping Model",
+							"description": "Worked in developing ML predictive model based on various analysis like Creating Derived fields, Correlation matrix, Feature importance, Evaluation metrics (confusion matrix, f1-score, accuracy), Parameter tuning and finding optimal algorithms out of Logistic, RF, XGBoost for finding the employees who can be scoped from Philips to Philips GBS",
+							"badgeTitle": [
+								"Python",
+								"Pandas",
+								"Scikit-learn"
+							],
+							"initialColor": "#01173c",
+							"finalColor": "#2F80ED"
+						},
+						{
+							"id": 2,
+							"title": "DESSA",
+							"description": "Website to identify the processes across GBS that can be automated. The functionalities includes Role-Based User Management, Email Trigger after User assess process, DataStructures to track creating, assigning and performing assessment",
+							"badgeTitle": [
+								"React JS",
+								".NET",
+								"MS-SQL Server"
+							],
+							"initialColor": "#fb0909",
+							"finalColor": "#19e4fa"
+						},
+						{
+							"id": 3,
+							"title": "Analytics Project Tracker",
+							"description": "Created website for the team to take in new projects from stakeholders, assign them to managers, create tasks under them, and assign it to Team members. Allows updating status, deadline triggers, OTD/FTR calculation, displaying overdue/risk tasks",
+							"badgeTitle": [
+								"React JS",
+								"Fast API",
+								"MS-SQL Server"
+							],
+							"initialColor": "#5f0269",
+							"finalColor": "#c714db"
+						},
+						{
+							"id": 4,
+							"title": "Monthly Performance Mobile APP",
+							"description": "Created cross-platform mobile app using react native that uses Azure authentication and showcases graphs and data matrix about the monthly target and actuals for every process performed by GBS",
+							"badgeTitle": [
+								"React Native",
+								"MS-SQL Server"
+							],
+							"initialColor": "#1d8787",
+							"finalColor": "#12fa0a"
+						},
+						{
+							"id": 5,
+							"title": "PowerApps Daily Management",
+							"description": "Created a PowerApps solution for daily standup to capture peer's WL/Mood, top of mind items, Action Tracker, Analytics Board to know status of projects. This is an initiative to digitize activities performed using excel. It also uses MS Flow to trigger data transformation jobs for auto report generation",
+							"badgeTitle": [
+								"PowerApps",
+								"MS Flow"	
+							],
+							"initialColor": "#a05c08",
+							"finalColor": "#192301"
+						},
+						{
+							"id": 6,
+							"title": "Excel/PPT Report Automations",
+							"description": "Worked on automating more than 10 reports involving scenarios like Creating multiple calculated columns by translating excel formulas into pandas Automatic excel generation including merged cells, color formatting, borders, and sheet split-ups Data transfer from various sources like data in Sharepoint, Azure DataLake, DeltaLake, SQL Servers Employee data fetch using MS Graph API Pipeline creation in Azure Databricks to orchestrate automatic delivery on a periodic basis, pywin32 to replicate VBA functions and reduce effort in excel and PPT dashboarding",
+							"badgeTitle": [
+								"Azure Databricks",
+								"Pandas",
+								"Numpy",
+								"Rest API",
+								"pywin32",
+								"PySpark",
+								"Sharepoint API",
+								"SQLAlchemy"
+							],
+							"initialColor": "#ab6d21",
+							"finalColor": "#595f01"
+						}
+						,
+						{
+							"id": 7,
+							"title": "Power BI Reports",
+							"description": "Worked on multiple Power BI reports involving data transformation using PowerQuery and DAX for creating calculated columns",
+							"badgeTitle": [
+								"Power BI",
+								"DAX",
+								"Power Query"
+							],
+							"initialColor": "#355fde",
+							"finalColor": "#0d1259"
+						}
+						,
+						{
+							"id": 8,
+							"title": "Azure ,AWS, Power BI Maintanence",
+							"description": "Being the POC for technology within the team, I would assist employees in case of access requirements, feasability checks, solution proposals, faulty data loads, deploying their code, and monitoring for surges",
+							"badgeTitle": [
+								"Azure",
+								"IIS",
+								"MS SQL Server",
+								"Power BI"
+							],
+							"initialColor": "#00e68a",
+							"finalColor": "#370109"
+						}
+					]
+				}
+			],
+			"route": "#",
+			"initialColor": "#f05053",
+			"finalColor": "#f11bf8",
+			"icon": "GoRepo"
+		},
+		{
+			"title": "Personal Projects",
 			"value": [
 				{
 					"id": 1,
-					"title": "Chatbox",
-					"description": "This is an application developed for an in-depth understanding of WebSockets. For the front end, I have used React JS and sockets IO & For the backend, implemented sockets using Express JS.",
-					"projectRoute": "https://chatbox.pranjaljain.me",
-					"githubUrl": "https://github.com/pranjaljain0/chatbox-frontend",
-					"badgeTitle": ["Socket", "ReactJS", "ExpressJS", "HTML", "CSS"],
+					"title": "Multimedia Telegram Bot",
+					"description": "It was my initial mystomedia bot before moving on with Fast API ",
+					"projectRoute": "https://github.com/vigneshprince/tbot_public",
+					"badgeTitle": [
+						"Python",
+						"Docker",
+						"Heroku",
+						"python-telegram-bot",
+						"BS4"
+					],
 					"initialColor": "#56CCF2",
 					"finalColor": "#2F80ED",
-					"language": "C++"
+					"language": "Python"
 				},
 				{
 					"id": 2,
-					"title": "The Yellow Mushroom",
-					"description": "Created a website home page for a start-up company that is in the field of Design and Development. Created the frontend using React JS using multiple custom-made reusable components.",
-					"projectRoute": "https://theyellowmushrooms.com",
-					"badgeTitle": ["ReactJS", "ExpressJS", "HTML", "CSS"],
+					"title": "Mystomedia API",
+					"description": "Mystomedia API uses Fast API to provide a RESTful API for Mystomedia App. It involves web scraping using BS4 and selenium to perform get contents loaded from JS, Rclone for cloud orchestration and serves audio and video files to front end using streaming API and hosted in heroku using Docker. ",
+					"projectRoute": "https://github.com/vigneshprince/mystomedia-api_public",
+					"badgeTitle": [
+						"Python",
+						"Docker",
+						"Heroku",
+						"Fast API",
+						"BS4"
+					],
 					"initialColor": "#373B44",
 					"finalColor": "#4286f4",
-					"language": "Java"
+					"language": "Python"
 				},
 				{
 					"id": 3,
-					"title": "Refactored Waffles",
-					"description": "This is a web application made as a submission for the MongoDB Atlas Hackathon 2021, This project is an E-commerce store purely made using tools provided by MondoDB",
-					"projectRoute": "https://refactoredwaffles.pranjaljain.me/",
-					"githubUrl": "https://github.com/pranjaljain0/refactored-waffle",
-					"badgeTitle": ["NextJS", "MongoDB", "HTML", "CSS"],
+					"title": "Mystomedia",
+					"description": "Mystomedia is a personal multimedia suite to download media content from Google Drive with search functionality using Drive Api V3 and content feeds from OMDB Api. Other features include download from spotify, deezer and regional movie sites. It uses firebase for authentication ",
+					"projectRoute": "https://github.com/vigneshprince/mystomedia-app_public",
+					"badgeTitle": [
+						"JavaScript",
+						"Firebase",
+						"ReactNative",
+						"Expo"
+					],
 					"initialColor": "#f12711",
 					"finalColor": "#f5af19",
 					"language": "JavaScript"
 				},
 				{
 					"id": 4,
-					"title": "ZenHotline",
-					"projectRoute": "https://dev.zenhotline.com/",
-					"description": "Initiated a medical teleconsultation platform using reactJS as a front-end framework created almost 40+ reusable components Executed a middleware with ExpressJS that consisted of 60+ endpoints to perform backend operations Integrated nearly 10 accessories tools to schedule, maintain and organize meetings/video calls between clients and professionals",
-					"badgeTitle": ["ReactJS", "ExpressJS", "HTML", "CSS", "Firebase"],
+					"title": "Expense Tracker",
+					"description": "A personal expense tracker app that helps you track your expenses and keep track of your budget. It uses firebase for authentication and firestore for database. Uses Lottie view for animation, Native Base for UI. It has 4 screens - Favourites, Expense Types , Expense History and Consolidated View. ",
+					"projectRoute": "https://github.com/vigneshprince/expenseTracker_public",
+					"badgeTitle": [
+						"JavaScript",
+						"Firebase",
+						"ReactNative",
+						"Expo",
+						"nativeBase"
+					],
 					"initialColor": "#11998e",
 					"finalColor": "#38ef7d",
-					"language": "Haskell"
+					"language": "JavaScript"
 				},
 				{
 					"id": 5,
-					"title": "Cards",
-					"projectRoute": "https://cards.pranjaljain.me",
-					"description": "Its a project where I was exploring integration of 3D objects which are exported from blender to the web applications which can in turn make the web a more enhanced experience for users.",
+					"title": "Personal Automations",
+					"description": "A collection of utilities that simplifies everyday windows usages. Curently includes Multimedia downloaders within commandline, torrent searcher and streamer using jackett API, youtube downloader and cloud uploader using python , PDF pass remover, Photo organiser ,Powershell commandline utilities for adding env variables and package downloading.",
+					"projectRoute": "https://github.com/vigneshprince/mystomedia-api_public",
 					"badgeTitle": [
-						"ReactJS",
-						"ExpressJS",
-						"HTML",
-						"CSS",
-						"ModelViewer",
-						"Blender",
-						"ThreeJS"
+						"Python",
+						"Powershell",
+						"YT-DL",
+						"Spotify",
+						"Jackett API",
+						"BS4",
+						"MPV lua scipts"
 					],
-					"githubUrl": "https://github.com/pranjaljain0/Credit-Card-Landing-Page-UI",
 					"initialColor": "#f05053",
 					"finalColor": "#e1eec3",
-					"language": "Ruby"
+					"language": "Python"
 				}
 			],
 			"route": "/projects",
@@ -75,43 +213,38 @@
 			"value": [
 				{
 					"title": "Python",
-					"level": "Advance"
+					"level": "Advance",
+					"progressPercentage": "90%"
 				},
 				{
-					"title": "HTML",
-					"level": "Advance"
+					"title": "SQL",
+					"level": "Advance",
+					"progressPercentage": "80%"
 				},
 				{
-					"title": "PHP",
-					"level": "Advance"
+					"title": "Power BI - DAX and Power Query",
+					"level": "Advance",
+					"progressPercentage": "80%"
 				},
 				{
-					"title": "JAVA",
-					"level": "Advance"
-				},
-				{
-					"title": "C++",
-					"level": "Advance"
-				},
-				{
-					"title": "C",
-					"level": "Advance"
-				},
-				{
-					"title": "Android",
-					"level": "Intermediate"
+					"title": "Azure - Delta Lake and Databricks",
+					"level": "Intermediate",
+					"progressPercentage": "60%"
 				},
 				{
 					"title": "JS",
-					"level": "Intermediate"
+					"level": "Intermediate",
+					"progressPercentage": "60%"
 				},
 				{
-					"title": "MongoDB",
-					"level": "Intermediate"
+					"title": "PowerApps and MS Flow",
+					"level": "Intermediate",
+					"progressPercentage": "60%"
 				},
 				{
-					"title": "ReactJS",
-					"level": "Beginner"
+					"title": ".NET",
+					"level": "Beginner",
+					"progressPercentage": "30%"
 				}
 			],
 			"route": "/languages",
@@ -120,31 +253,39 @@
 			"icon": "DiJavascript1"
 		},
 		{
+			"title": "Certificates",
+			"value": [
+				{
+					"Name": "Azure DP-900",
+					"Description": "To master data in the cloud, you need the right foundation—a solid understanding of core data concepts, such as relational data, nonrelational data, big data, and analytics. Plus, familiarity with the roles, tasks, and responsibilities in the world of data and data analytics. The certification offers the foundation you need to build your technical skills to start working with data in the cloud. Mastering the basics can help you jump-start your career and prepare you to dive deeper into other technical opportunities Azure offers.",
+					"Link": "https://api.onedrive.com/v1.0/shares/s!AmsOUUxoQ1z3iW47NXwB8fWyp9lb/root/content",
+					"iframesrc": "https://onedrive.live.com/embed?cid=F75C43684C510E6B&resid=f75c43684c510e6b%211262&authkey=AL5UkxFcCcRA1Ck&em=2",
+					"initialColor": "#f05053",
+					"finalColor": "#5884fd"
+				}
+			],
+			"route": "#",
+			"initialColor": "#11998e",
+			"finalColor": "#38ef7d",
+			"icon": "TiSocialAtCircular"
+		},
+		{
 			"title": "Hobbies & Interest",
 			"value": [
 				{
-					"title": "Solving puzzles",
-					"hobbyIcon": "FaPuzzlePiece"
+					"title": "Chess"
 				},
 				{
-					"title": "Computing",
-					"hobbyIcon": "MdComputer"
+					"title": "Carrom"
 				},
 				{
-					"title": "Going to the gym",
-					"hobbyIcon": "FaDumbbell"
+					"title": "Reading Tech blogs"
 				},
 				{
-					"title": "Travelling",
-					"hobbyIcon": "MdCardTravel"
+					"title": "Scrolling through Reddit and Discord disucssions"
 				},
 				{
-					"title": "Networking",
-					"hobbyIcon": "FaNetworkWired"
-				},
-				{
-					"title": "Playing guitar",
-					"hobbyIcon": "FaGuitar"
+					"title": "Trying out new opensource projects"
 				}
 			],
 			"route": "#",
@@ -156,58 +297,36 @@
 			"title": "Education",
 			"value": [
 				{
-					"title": "New Jersey Institute of Technology",
-					"duration": "2021-2023",
-					"location_city": "Newark",
-					"location_state": "New Jersey",
-					"location_country": "US",
-					"description": "Masters of Scinece",
-					"sec_details": "Computer Science & Technology",
+					"title": "CEG Anna University",
+					"duration": "2016-2020",
+					"location_city": "Chennai",
+					"location_state": "TamilNadu",
+					"location_country": "India",
+					"description": "Bachelors in Engineering",
+					"sec_details": "Computer Science & Engineering",
 					"color": "#fef54b",
 					"text": "#1d1d1d"
 				},
 				{
-					"title": "Avantika University",
-					"duration": "2017-2021",
-					"location_city": "Ujjain",
-					"location_state": "Madhya Pradesh",
-					"location_country": "IN",
-					"description": "Bachelor of Technology",
-					"sec_details": "Specialization : Computer Science engineering",
-					"color": "#fef54b",
-					"text": "#1d1d1d"
-				},
-				{
-					"title": "The Sanskaar Valley School",
-					"duration": "2012 - 2016",
-					"location_city": "Bhopal",
-					"location_state": "Madhya Pradesh",
-					"location_country": "IN",
-					"description": "High school",
-					"sec_details": "ISC- 66%; ICSE- 87%",
+					"title": "Zion Matriculation Hr Sec School",
+					"duration": "2014 - 2016",
+					"location_city": "Chennai",
+					"location_state": "TamilNadu",
+					"location_country": "India",
+					"description": "HSC",
+					"sec_details": "97.8%",
 					"color": "#ffe54a",
 					"text": "#1d1d1d"
 				},
 				{
-					"title": "The Scindia School",
-					"duration": "2008 - 2011",
-					"location_city": "Gwalior",
-					"location_state": "Madhya Pradesh",
-					"location_country": "IN",
-					"description": "High school",
-					"sec_details": "",
-					"color": "#ffd448",
-					"text": "#1d1d1d"
-				},
-				{
-					"title": "St. Joseph's Co-ed School ",
-					"duration": "2003 - 2007",
-					"location_city": "Bhopal",
-					"location_state": "Madhya Pradesh",
-					"location_country": "IN",
-					"description": "Middle school",
-					"sec_details": "",
-					"color": "#ffc446",
+					"title": "Zion Matriculation Hr Sec School",
+					"duration": "2003 - 2014",
+					"location_city": "Chennai",
+					"location_state": "TamilNadu",
+					"location_country": "India",
+					"description": "SSLC",
+					"sec_details": "98%",
+					"color": "#ffe54a",
 					"text": "#1d1d1d"
 				}
 			],
@@ -215,78 +334,6 @@
 			"initialColor": "#007991",
 			"finalColor": "#78ffd6",
 			"icon": "GiBookshelf"
-		},
-		{
-			"title": "Contact",
-			"value": [
-				{
-					"title": "instagram",
-					"link": ""
-				},
-				{
-					"title": "linkedin",
-					"link": ""
-				},
-				{
-					"title": "github",
-					"link": ""
-				},
-				{
-					"title": "instagram",
-					"link": ""
-				}
-			],
-			"route": "#",
-			"initialColor": "#11998e",
-			"finalColor": "#38ef7d",
-			"icon": "TiSocialAtCircular"
-		},
-		{
-			"title": "Work Experience",
-			"value": [
-				{
-					"title": "HUDE Labs",
-					"duration": "3 Months",
-					"location": "Bhopal, Madhya Pradesh 462024, IN",
-					"url": "http://hudelabs.com/",
-					"description": [
-						"Learned and implemented the concept of Block Element Modifier in HTML & CSS."
-					]
-				},
-				{
-					"title": "Emote Electric",
-					"description": [
-						"Developed and designed an interactive Website for Emote Electric, using HTML, CSS & PHP.",
-						"Created AWS EC2 Instance to host the website on the AWS Cloud."
-					],
-					"duration": "3 Months",
-					"location": "Coimbatore, Tamil Nadu 641032, IN",
-					"url": "https://emoteelectric.com/"
-				},
-				{
-					"title": "Semantic Technologies",
-					"description": [
-						"Worked on the MyBenefits360 which is a comprehensive and powerful online portal that automates, manages and supports Core Insurance, Wellness Benefits and Fitness Integrations"
-					],
-					"duration": "6 Months",
-					"location": "Remote",
-					"url": "https://www.mybenefits360.com/"
-				},
-				{
-					"title": "CollegePass",
-					"description": [
-						"Developed and designed an interactive advising platform for college admission, using React.js, Node.js & AWS.",
-						"Deployed service workers to perform browser operations on the PWA."
-					],
-					"duration": "6 Months",
-					"location": "Remote",
-					"url": "https://collegepass.org/"
-				}
-			],
-			"route": "#",
-			"initialColor": "#e1eec3",
-			"finalColor": "#f05053",
-			"icon": "GoRepo"
 		}
 	]
 }

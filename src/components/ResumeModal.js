@@ -1,7 +1,7 @@
-import {Modal} from 'react-bootstrap'
+import { Modal } from 'react-bootstrap'
 import React from 'react'
 
-function ResumeModal({showResumeModal, closeModal}) {
+function ResumeModal({ showResumeModal, closeModal }) {
 	return (
 		<Modal
 			size='lg'
@@ -12,12 +12,9 @@ function ResumeModal({showResumeModal, closeModal}) {
 				<Modal.Title id='example-modal-sizes-title-lg'>Resume</Modal.Title>
 			</Modal.Header>
 			<Modal.Body>
-				<iframe
-					title='Resume'
-					src='https://pranjaljain0.github.io/pranjaljain0/Pranjal_Jain_CV.pdf#toolbar=0'
-					width='100%'
-					height='700px'
-					frameBorder='0'></iframe>
+
+				<iframe src="https://onedrive.live.com/embed?cid=F75C43684C510E6B&resid=F75C43684C510E6B%211009&authkey=AHnIlFQUj-KK7ow&em=2" width='100%' height='700px' frameBorder="0" ></iframe>
+
 			</Modal.Body>
 		</Modal>
 	)

@@ -1,5 +1,5 @@
 import './Accordian.scss'
-
+import {Badge, Nav, Navbar} from 'react-bootstrap'
 import {BsChevronDown, BsChevronUp} from 'react-icons/bs'
 import React, {useState} from 'react'
 
@@ -11,10 +11,10 @@ function Accordian({title, data}) {
 		<div className='portfolio-accordian'>
 			<div className='header'>
 				<div className='title'>
-					<h3>{title}</h3>
-					<a href={data.url}>
+					<h5>{title}</h5>
+					{/* <a href={data.url}>
 						<AiOutlineLink />
-					</a>
+					</a> */}
 					<span>{data.duration}</span>
 				</div>
 				<span
@@ -26,11 +26,37 @@ function Accordian({title, data}) {
 			</div>
 			{showAccordian && (
 				<div className='content'>
-					<ul>
-						{data.description.map((item, index) => (
-							<li key={index}>{item}</li>
-						))}
-					</ul>
+					{data.Projects.map((Obj, index) => {
+					return (
+						<div style={{width:'100%'}}
+							key={`project-list-item-${index}`}
+							className='project_list_item_link'>
+							<div
+								style={{
+									background:
+										`linear-gradient(120deg,` +
+										Obj.initialColor +
+										`,` +
+										Obj.finalColor +
+										`)`,
+								}}
+								className='project_list_item'>
+								<h3>
+									{Obj.title}
+									
+								</h3>
+								{Object.keys(Obj.badgeTitle).map((item, index) => {
+									return (
+										<Badge pill variant='primary' className='chip' key={index}>
+											{Obj.badgeTitle[item]}
+										</Badge>
+									)
+								})}
+								<p>{Obj.description}</p>
+							</div>
+						</div>
+					)
+				})}
 				</div>
 			)}
 		</div>

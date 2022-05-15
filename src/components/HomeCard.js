@@ -3,10 +3,9 @@ import React, {useState} from 'react'
 
 import {Col} from 'react-bootstrap'
 import {DiJavascript1} from 'react-icons/di'
-import {FaGuitar} from 'react-icons/fa'
+import {FaGuitar,FaCertificate,FaAtlas} from 'react-icons/fa'
 import {GoRepo} from 'react-icons/go'
 import HomeModal from './HomeModal'
-import {TiSocialAtCircular} from 'react-icons/ti'
 
 function seticon(iconName, size) {
 	if (iconName === 'FaGuitar') return <FaGuitar color='#fff' size={size} />
@@ -18,7 +17,7 @@ function seticon(iconName, size) {
 		return <DiJavascript1 color='#fff' size={size} />
 	else if (iconName === 'GoRepo') return <GoRepo color='#fff' size={size} />
 	else if (iconName === 'TiSocialAtCircular')
-		return <TiSocialAtCircular color='#fff' size={size} />
+		return <FaAtlas color='#fff' size={size} />
 }
 
 function HomeCard({HomeCards}) {

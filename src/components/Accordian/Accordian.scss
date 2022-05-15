@@ -29,8 +29,7 @@
 		& .title {
 			display: flex;
 			justify-content: center;
-			align-items: center;
-
+			
 			& span {
 				margin-left: 8px;
 				color: rgba($color: #fff, $alpha: 0.6);
@@ -44,6 +43,7 @@
 
 	& .content {
 		display: flex;
+		flex-direction: column;
 		border-top: 1px solid #fff;
 		margin-top: 10px;
 		padding-top: 10px;

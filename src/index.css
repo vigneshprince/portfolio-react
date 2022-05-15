@@ -318,6 +318,16 @@ a.projectLink {
 	color: #fff;
 }
 
+.cert_list_item {
+	width: 100%;
+	padding: 20px;
+	border-radius: 11px;
+	background-color: #00e4d0;
+	margin: 2px;
+	color:white
+}
+
+
 .project_list_item {
 	width: 100%;
 	padding: 20px;

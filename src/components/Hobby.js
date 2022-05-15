@@ -1,8 +1,9 @@
 import {
-	FaDumbbell,
-	FaGuitar,
-	FaNetworkWired,
-	FaPuzzlePiece,
+	FaChessBoard,
+	FaReddit,
+	FaBlog,
+	FaCoins,
+	FaGithub
 } from 'react-icons/fa'
 import {MdCardTravel, MdComputer} from 'react-icons/md'
 
@@ -10,17 +11,16 @@ import React from 'react'
 import styled from 'styled-components'
 
 function hobbyIconCheck(iconName, size) {
-	if (iconName === 'FaPuzzlePiece')
-		return <FaPuzzlePiece color='#fff' size={size} />
-	else if (iconName === 'MdComputer')
-		return <MdComputer color='#fff' size={size} />
-	else if (iconName === 'FaDumbbell')
-		return <FaDumbbell color='#fff' size={size} />
-	else if (iconName === 'MdCardTravel')
-		return <MdCardTravel color='#fff' size={size} />
-	else if (iconName === 'FaNetworkWired')
-		return <FaNetworkWired color='#fff' size={size} />
-	else if (iconName === 'FaGuitar') return <FaGuitar color='#fff' size={size} />
+	if (iconName === 'Chess')
+		return <FaChessBoard color='#fff' size={size} />
+	else if (iconName === 'Carrom')
+		return <FaCoins color='#fff' size={size} />
+	else if (iconName === 'Reading Tech blogs')
+		return <FaBlog color='#fff' size={size} />
+	else if (iconName === 'Scrolling through Reddit and Discord disucssions')
+		return <FaReddit color='#fff' size={size} />
+	else if (iconName === 'Trying out new opensource projects')
+		return <FaGithub color='#fff' size={size} />
 }
 
 const Card = styled.div`
@@ -57,7 +57,7 @@ function Hobby({HobbyListVal}) {
 					return (
 						<TR index={index} key={index}>
 							<HobbyIcon className='hobbyIcon'>
-								{hobbyIconCheck(Obj.hobbyIcon, '30px')}
+								{hobbyIconCheck(Obj.title, '30px')}
 							</HobbyIcon>
 							<TD>{Obj.title}</TD>
 						</TR>

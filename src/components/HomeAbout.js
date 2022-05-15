@@ -5,6 +5,7 @@ function HomeAbout() {
 	return (
 		<div>
 			<p>{Home_data.data.about}</p>
+			<p>{Home_data.data.about1}</p>
 		</div>
 	)
 }

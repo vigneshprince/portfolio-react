@@ -22,7 +22,28 @@ const TD = styled.td`
 	padding: 20px;
 `
 
-function CodeList({CodeListVal}) {
+const Progress_div = styled.div`
+height: 20px;
+position: relative;
+background: rgb(243, 239, 239);
+-moz-border-radius: 25px;
+-webkit-border-radius: 25px;
+border-radius: 25px;
+`
+
+const Progress_span = styled.span`
+display: block;
+height: 100%;
+border-top-right-radius: 6px;
+border-bottom-right-radius: 6px;
+border-top-left-radius: 20px;
+border-bottom-left-radius: 20px;
+background-color: #aaa5ff;
+position: relative;
+overflow: hidden;
+`
+
+function CodeList({ CodeListVal }) {
 	return (
 		<Card>
 			<Table>
@@ -32,6 +53,11 @@ function CodeList({CodeListVal}) {
 							<TR index={index}>
 								<TD>{Obj.title}</TD>
 								<TD>{Obj.level}</TD>
+								<TD>
+									<Progress_div>
+										<Progress_span style={{width: Obj.progressPercentage}}></Progress_span>
+									</Progress_div>
+									</TD>
 							</TR>
 						</div>
 					)

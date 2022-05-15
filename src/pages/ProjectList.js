@@ -28,11 +28,7 @@ function ProjectList({ProjectListVal}) {
 								className='project_list_item'>
 								<h3>
 									{Obj.title}
-									{Obj.githubUrl && (
-										<a href={Obj.githubUrl}>
-											<AiFillGithub className='projectGithubIcon' />
-										</a>
-									)}
+									
 								</h3>
 								{Object.keys(Obj.badgeTitle).map((item, index) => {
 									return (

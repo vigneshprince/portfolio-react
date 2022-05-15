@@ -11,7 +11,7 @@
 		"bootstrap": "^4.6.0",
 		"gitmoji-cli": "^4.0.0",
 		"lint-staged": "^11.0.0",
-		"node-sass": "^4.14.1",
+		"node-sass": "^7.0.1",
 		"react": "^16.14.0",
 		"react-bootstrap": "^1.6.1",
 		"react-dom": "^16.14.0",
@@ -24,7 +24,7 @@
 		"styled-components": "^5.2.0"
 	},
 	"scripts": {
-		"start": "react-scripts start",
+		"start": "set PORT=3000 && react-scripts start",
 		"build": "react-scripts build",
 		"test": "react-scripts test",
 		"eject": "react-scripts eject",

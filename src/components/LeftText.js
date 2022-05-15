@@ -7,14 +7,14 @@ function LeftText() {
 			<div className='flex-fix'>
 				<h2>Hi, </h2>
 				<span className='preTitle'>I am </span>
-				<h1 className='name_big'>Pranjal Jain</h1>
+				<h1 className='name_big'>Vignesh</h1>
 				<p className='animated_text'>
 					<Typed
 						strings={[
-							'I am an engineer',
-							'I am a Developer',
-							'I am a Critical Thinker',
-							'I am a Guitarist',
+							'I am a Data Engineer',
+							'I am a Full Stack Developer',
+							'I am a Visualization Specialist',
+							'I am a Azure Cloud Architect',
 						]}
 						typeSpeed={40}
 						backSpeed={50}
